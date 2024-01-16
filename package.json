@@ -6,13 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src"
   },
   "dependencies": {
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18",
-    "lint": "eslint src"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
